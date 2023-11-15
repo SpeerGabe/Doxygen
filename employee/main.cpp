@@ -5,7 +5,7 @@
 #include "Officer.h"
 
 using namespace std;
-
+//states that this function exists in this file so that you can call upon it in the main function
 void runEmployeeTests(Employee & e);
 
 int main() {
@@ -56,7 +56,7 @@ int main() {
 }
 
 void runEmployeeTests(Employee &e) {
-  
+  //prints everything out  
   cout << "Initial print():" << endl;
   e.print();
   cout << "Calculated Pay: " << e.calculatePay() << endl;

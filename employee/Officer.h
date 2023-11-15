@@ -2,6 +2,7 @@
 #define OFFICER_H
 
 #include "Employee.h"
+//creates more methods for the officer class while still using the employee methods
 
 class Officer : public Employee {
  private:
